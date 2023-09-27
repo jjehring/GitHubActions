@@ -1,6 +1,6 @@
 
 resource "aws_s3_bucket" "example" {
-  bucket = "JJ-GitHubActions-bucket"
+  bucket = "jjbucket"
 
   tags = {
     Name        = "My bucket"
