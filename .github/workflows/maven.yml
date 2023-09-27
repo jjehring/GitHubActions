@@ -56,7 +56,7 @@ jobs:
         terraform init
         terraform apply --auto-approve
 
-    - name: Cache state files
+    - name: Cache sstate files
       id: cache-state
       uses: actions/cache@v3
       with:
