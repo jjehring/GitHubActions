@@ -1,6 +1,6 @@
 
 resource "aws_s3_bucket" "example" {
-  bucket = "jjbucket"
+  bucket = "jjbucketsimplileanr"
 
   tags = {
     Name        = "My bucket"
